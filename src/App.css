@@ -1,0 +1,35 @@
+.page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 800px;
+}
+form {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.movies{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display : grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* esta funcion dice que cada columna debe ser al menos 200px de minimo y como maximo al menos una fraccion del ancho del espacio disponible*/
+  gap : 10px;
+}
+.movie{
+  text-align: center;
+}
+
