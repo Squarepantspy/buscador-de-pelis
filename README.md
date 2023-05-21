@@ -1,4 +1,4 @@
-## Prueba tecnica de buscador de pelis utilizando React
+## buscador de pelis utilizando React
 ### Tecnologias utilizadas
 Requisitos
 - Grid responsive
